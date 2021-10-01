@@ -11,6 +11,7 @@
     <el-tab-pane label="文件属性"></el-tab-pane>
     <el-tab-pane label="文件转换"></el-tab-pane>
   </el-tabs>
+
   <el-tabs tab-position="left" style="height: 400px" v-show="tabIndex === 'protol'">
     <el-tab-pane label="新CAN"></el-tab-pane>
     <el-tab-pane label="老CAN"></el-tab-pane>
